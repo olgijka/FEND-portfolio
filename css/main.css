@@ -1,0 +1,99 @@
+/* bootstrap */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* my styling */
+* {
+  background-color: #f8f1ff;
+  color: #464532;
+}
+
+header {
+  padding: 20px 0 0 0;
+}
+
+header h1,
+header h3 {
+  color: #464532;
+}
+
+div a {
+  color: #811d29;
+}
+
+div a:hover {
+  color: #811d29;
+  cursor: pointer;
+}
+
+/*  makes pictures stay within their containers */
+img {
+  max-width: 100%;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+.section-title {
+  margin: 10px 0 0 0;
+  padding: 10px 0;
+}
+
+/* makes project pictures stay fill in the container fully */
+.thumb {
+ min-width: 100%;
+ min-height: 100%;
+ padding: 10px 0;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
+#name,
+#dream {
+  text-align: right;
+}
+
+#cathelper {
+  align: center;
+  min-width: 100%;
+  margin: 20px 0 0 0;
+}
+
+#about-me {
+  font-size: 20px;
+}
+
+#footer {
+  text-align: center;
+  margin: 30px 0;
+}
+
+/* media query for smallest screens to correct display of name */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+
+  #name,
+  #dream {
+    float: left;
+  }
+
+  #logo {
+    float: right;
+    margin: 20px 0 0 0;
+  }
+
+  .col-md-4 > p,
+  .col-md-4 > a {
+    font-size: 20px;
+  }
+}
